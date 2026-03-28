@@ -17,7 +17,7 @@ const main = async () => {
     const adapterFlow = createFlow([welcomeFlow])
 
     const adapterProvider = createProvider(Provider,
-        { version: [2, 3000, 1027934701] }
+        { version: [2, 3000, 1034003740] }
     )
     const adapterDB = new Database()
 
